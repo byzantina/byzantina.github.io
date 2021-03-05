@@ -1,0 +1,6 @@
+node_modules
+documentation
+snippets
+html
+.DS_Store
+package-lock.json
