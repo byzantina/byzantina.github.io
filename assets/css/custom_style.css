@@ -104,3 +104,24 @@ body {
 .btn {
     font-weight: 400;
 }
+
+.bg-main {
+    background: url(../../assets/img/byz/bg-tile-stars.svg),linear-gradient(
+135deg
+,#0f0d20,#040405 25%,#21224d 53%,#702963);
+    background-size: 256px 256px,auto;
+}
+
+.bg-gradient-signup {
+    background: url(../../assets/svg/components/abstract-shapes-20.svg),linear-gradient(
+45deg
+,#21325b,#21325b 35%,#21224d 53%,#702963);
+    background-size: 600px 600px,auto;
+}
+
+.bg-footer-gradient {
+    /* background-color: #702963 !important; */
+    background: linear-gradient(
+13deg
+, rgba(0,45,83,1) 0%, rgba(112,41,99,1) 57%);
+}
