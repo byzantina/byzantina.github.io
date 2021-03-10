@@ -106,10 +106,8 @@ body {
 }
 
 .bg-main {
-    background: url(../../assets/img/byz/bg-tile-stars.svg),linear-gradient(
-135deg
-,#0f0d20,#040405 25%,#21224d 53%,#702963);
-    background-size: 256px 256px,auto;
+    background: url(../../assets/img/byz/07.png), #fdfdfd;
+    background-size: 600px 600px,auto;
 }
 
 .bg-gradient-signup {
@@ -120,8 +118,15 @@ body {
 }
 
 .bg-footer-gradient {
-    /* background-color: #702963 !important; */
-    background: linear-gradient(
+    background-color: #534350 !important;
+    /* background: linear-gradient( 
 13deg
-, rgba(0,45,83,1) 0%, rgba(112,41,99,1) 57%);
+ , rgba(0,45,83,1) 0%, rgba(112,41,99,1) 57%); */
+}
+
+.bg-dark-overlay-dotted {
+    background-image: radial-gradient(#19191c 10%, transparent 0), radial-gradient(#19191c 10%, transparent 0);
+    background-size: 7px 5px;
+    background-position: 11px 13px, 0px 6px;
+    opacity: 0.3;
 }
